@@ -1,8 +1,94 @@
+/* Cursed Timer ULiL Font */
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+/* More intuitive sizing */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --red: #f94f6d;
+    --black: #080001;
+    --white: #eeeeee;
+    --dark-blue: #1b244a;
+    --light-blue: #9aabd8;
+}
+
 body {
     margin: 0;
+    background-color: var(--dark-blue);
 }
 
 .container {
+    width: 100vw;
+    height: 100vh;
+
+    /* Centering */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container h3 {
+    margin: 0;
+
+    color: var(--white);
+    font-family: "Verdana";
+    font-size: 7vw;
+}
+
+.container section {
+    margin: 0 8.7vw;
+}
+
+.score {
+    background-color: var(--black);
+    width: 27vw;
+    aspect-ratio: 31 / 24;
+    border-radius: 0.87vw;
+
+    /* I got to those values through trial and error */
+    padding-top: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+
+    color: var(--red);
+    font-family: "Cursed Timer ULiL";
+    font-size: 15.65vw;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    width: 7.85vw;
+    aspect-ratio: 1;
+
+    background-color: var(--dark-blue);
+    border: 0.35vw solid var(--light-blue);
+    border-radius: 0.87vw;
+
+    color: var(--light-blue);
+    font-family: "Cursed Timer ULiL";
+    font-size: 3.13vw;
+    padding-top: 0.8vw;
+}
+
+.buttons button:hover {
+    background-color: #4c5374;
+    transition: 0.5s;
+}
+
+.buttons button:active {
+    background-color: var(--dark-blue);
+    transition: 0.2s;
 }

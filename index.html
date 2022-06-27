@@ -1,15 +1,31 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
+    <head>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        />
+        <link rel="stylesheet" href="index.css" />
     </head>
     <body>
         <div class="container">
-            <div>
+            <section id="home">
                 <h3>HOME</h3>
-            </div>
-            <div>
+                <div class="score">0</div>
+                <div class="buttons">
+                    <button type="button">+1</button>
+                    <button type="button">+2</button>
+                    <button type="button">+3</button>
+                </div>
+            </section>
+            <section id="guest">
                 <h3>GUEST</h3>
-            </div>
+                <div class="score">0</div>
+                <div class="buttons">
+                    <button type="button">+1</button>
+                    <button type="button">+2</button>
+                    <button type="button">+3</button>
+                </div>
+            </section>
         </div>
         <script src="index.js"></script>
     </body>
