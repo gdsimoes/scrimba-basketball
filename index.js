@@ -19,3 +19,14 @@ function highlight() {
         guest.classList.toggle("leader", false);
     }
 }
+
+function reset() {
+    home.textContent = 0;
+    guest.textContent = 0;
+}
+
+document.addEventListener("keydown", (event) => {
+    if (event.key === "r") {
+        reset();
+    }
+});
