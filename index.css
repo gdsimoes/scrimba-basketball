@@ -92,3 +92,7 @@ body {
     background-color: var(--dark-blue);
     transition: 0.2s;
 }
+
+.leader {
+    box-shadow: 0px 0px 6px 6px #ffda55;
+}
