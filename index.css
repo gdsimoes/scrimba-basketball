@@ -18,6 +18,8 @@
     --white: #eeeeee;
     --dark-blue: #1b244a;
     --light-blue: #9aabd8;
+    --highlight-blue: #4c5374;
+    --yellow: #ffda55;
 }
 
 body {
@@ -84,7 +86,7 @@ body {
 }
 
 .buttons button:hover {
-    background-color: #4c5374;
+    background-color: var(--highlight-blue);
     transition: 0.5s;
 }
 
@@ -94,5 +96,5 @@ body {
 }
 
 .leader {
-    box-shadow: 0px 0px 6px 6px #ffda55;
+    box-shadow: 0px 0px 6px 6px var(--yellow);
 }
