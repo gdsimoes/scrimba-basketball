@@ -42,13 +42,13 @@ The challenge was to create a simple Basketball Scoreboard app.
 
 ### What I learned
 
-The focus of this project was to practice using JavaScript to manipulate the DOM. I have some experience with JavaScript, but primarily using Node, so this was a valuable exercise for me. On the design side of things, I learned how to use my own fonts without using a service like [Google Fonts](https://fonts.google.com/), and reviewed how to style buttons using pseudo-classes.
+The focus of this project was to practice using JavaScript to manipulate the DOM. I have some experience with JavaScript, but primarily using Node, so this was a valuable exercise for me. On the design side of things, I learned how to use my own fonts without using a service like [Google Fonts](https://fonts.google.com/) and reviewed how to style buttons using pseudo-classes.
 
 As "stretch goals," I highlighted the leader's score and created the reset function, which is fired whenever the user presses the 'r' key. To do this, I had to refresh my memory on how to toggle classes and how keyboard events work in JavaScript.
 
 ### Continued development
 
-I look forward to creating more complex websites, using advanced programming techniques.
+I look forward to creating more complex websites using advanced programming techniques.
 
 ### Useful resources
 
