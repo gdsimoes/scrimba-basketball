@@ -1,4 +1,4 @@
-# Solo Project: Hometown Homepage
+# Solo Project: Basketball Scoreboard
 
 This is the first JavaScript project in the Scrimba Frontend Developer Career Path.
 
